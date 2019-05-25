@@ -1,7 +1,4 @@
-import {
-    Component,
-    Input
-} from "@angular/core";
+import {Component, Input} from "@angular/core";
 import { IFlight } from "src/app/models/flight.interface";
 
 @Component({
