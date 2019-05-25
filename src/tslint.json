@@ -13,6 +13,6 @@
       "",
       "kebab-case"
     ],
-    "quotemark": true
+    "quotemark": [true, "single"]
   }
 }

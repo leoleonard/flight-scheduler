@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="373d8030-3243-4fc2-a11c-d3df4f686cd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../swimfun/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../angular-app" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../counter-redux" beforeDir="false" afterPath="$PROJECT_DIR$/../counter-redux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expensify-app" beforeDir="false" afterPath="$PROJECT_DIR$/../expensify-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../github-user-data" beforeDir="false" afterPath="$PROJECT_DIR$/../github-user-data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nodejs-project" beforeDir="false" afterPath="$PROJECT_DIR$/../nodejs-project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../portfolio-app" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio-app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pure-react/github-file-list" beforeDir="false" afterPath="$PROJECT_DIR$/../pure-react/github-file-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pure-react/jsx-exercises" beforeDir="false" afterPath="$PROJECT_DIR$/../pure-react/jsx-exercises" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pure-react/one" beforeDir="false" afterPath="$PROJECT_DIR$/../pure-react/one" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pure-react/props-tweet" beforeDir="false" afterPath="$PROJECT_DIR$/../pure-react/props-tweet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pure-react/shopper" beforeDir="false" afterPath="$PROJECT_DIR$/../pure-react/shopper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pure-react/static-tweet" beforeDir="false" afterPath="$PROJECT_DIR$/../pure-react/static-tweet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-data-fetching" beforeDir="false" afterPath="$PROJECT_DIR$/../react-data-fetching" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-github-api" beforeDir="false" afterPath="$PROJECT_DIR$/../react-github-api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-native-boilerplate-basic" beforeDir="false" afterPath="$PROJECT_DIR$/../react-native-boilerplate-basic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-native-boilerplate-basic copy" beforeDir="false" afterPath="$PROJECT_DIR$/../react-native-boilerplate-basic copy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../react-workshop" beforeDir="false" afterPath="$PROJECT_DIR$/../react-workshop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rnhp-client" beforeDir="false" afterPath="$PROJECT_DIR$/../rnhp-client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stacjait/nodejs-project" beforeDir="false" afterPath="$PROJECT_DIR$/../stacjait/nodejs-project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stacjait/nodejs-project copy" beforeDir="false" afterPath="$PROJECT_DIR$/../stacjait/nodejs-project copy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../swimfun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../swimfun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../swimfun/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../swimfun/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../swimfun/oferta.html" beforeDir="false" afterPath="$PROJECT_DIR$/../swimfun/oferta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../swimfun/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../swimfun/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../swimfun/zapisy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../swimfun/zapisy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tslint.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -41,10 +17,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/data-grid/data-grid.component.html">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -68,11 +53,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tslint.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -86,6 +80,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/tslint.json" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -102,11 +98,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1308" />
-    <option name="y" value="23" />
-    <option name="width" value="132" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="615" />
+    <option name="width" value="825" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,8 +113,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="flight-schedules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flight-schedules" type="462c0819:PsiDirectoryNode" />
+              <item name="flight-scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flight-scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flight-scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flight-scheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flight-scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flight-scheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flight-scheduler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flight-scheduler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="mock-data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -129,6 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -192,25 +206,21 @@
       <option name="presentableId" value="Default" />
       <updated>1558543458791</updated>
       <workItem from="1558543464088" duration="336000" />
+      <workItem from="1558785505480" duration="277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="336000" />
+    <option name="totallyTimeSpent" value="613000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="615" y="0" width="825" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3544776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="GraphQL" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3299363" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -218,6 +228,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="GraphQL" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -227,9 +242,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/components/data-grid/data-grid.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/data-grid/data-grid.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -239,9 +251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/data-grid/data-grid.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/data-grid/header/header.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -249,6 +258,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/data-grid/data-grid.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/data-grid/data-grid.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
         </state>
       </provider>
     </entry>
