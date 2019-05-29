@@ -1,9 +1,51 @@
-<grid-header
-    [headers]="sampleHeaders"
-></grid-header>
-<div *ngIf="rows">
-    <data-row *ngFor="let row of rows"
-        [row]="row"
+<div>
+    <grid-header [headers]="sampleHeaders"></grid-header>
+    <div *ngIf="rows">
+        <data-row
+            *ngFor="let row of rows"
+            [row]="row"
+            (registrationModal)="register($event)"
+        >
+        </data-row>
+    </div>
+    <p-dialog
+        styleClass="dialog"
+        [(visible)]="display"
+        modal="modal"
+        [responsive]="true"
     >
-    </data-row>
+        <p-header>
+            <h1 class="header-flight-number">{{selectedFlight.flightNumber }} Registration </h1>
+            <p class="departure-time">{{selectedFlight.scheduledDate | date:"dd/MM/yy"}} - {{selectedFlight.scheduledDate | date:"hh:mm"}}</p>
+        </p-header>
+        <form class="dialog-content">
+            <label>Registration</label>
+            <p-autoComplete
+                class="auto-suggestions"
+                name="registration"
+                [(ngModel)]="flightRegistration"
+                [suggestions]="suggestionsList"
+                (completeMethod)="findRegistration($event, registrationRows)"
+                [size]="45"
+                [minLength]="2"
+            >
+            </p-autoComplete>
+        </form>
+        <p-footer class="dialog-footer">
+            <button type="button"
+                    pButton
+                    (click)="closeDialog();$event.stopImmediatePropagation();"
+                    label="Cancel"
+                    class="button-cancel"
+            >
+            </button>
+            <button type="button"
+                    pButton
+                    (click)="saveRegistration();"
+                    label="Save"
+                    class="button-save"
+            >
+            </button>
+        </p-footer>
+    </p-dialog>
 </div>

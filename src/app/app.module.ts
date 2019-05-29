@@ -13,7 +13,7 @@ import {HttpModule} from '@angular/http';
     imports: [
         BrowserModule,
         DataGridModule,
-        HttpModule
+        HttpModule,
     ],
     providers: [
         FlightsService,

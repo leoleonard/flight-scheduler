@@ -1,7 +1,7 @@
-import { NgModule } from "@angular/core";
+import { NgModule } from '@angular/core';
 
-import { RowComponent } from "./row.component";
-import { CommonModule, DatePipe } from "@angular/common";
+import { RowComponent } from './row.component';
+import { CommonModule, DatePipe } from '@angular/common';
 
 @NgModule({
     declarations: [RowComponent],

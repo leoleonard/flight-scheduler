@@ -1,0 +1,120 @@
+.dialog {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background: #fff;
+}
+
+.ui-inputtext {
+    padding: 0 5px;
+}
+.ui-dialog-titlebar {
+    height: 61px;
+    background: #f0f0f0;
+}
+
+.header-flight-number {
+    font-family: SourceSansPro;
+    font-weight: bold;
+    font-size: 21px;
+    color: #000;
+    padding-left: 75px;
+    padding-top: 14px;
+}
+
+.departure-time {
+    font-family: SourceSansPro;
+    font-size: 12px;
+    color: #000000;
+    padding-left: 75px;
+    padding-top: 3px;
+    text-align: left;
+}
+
+
+.ui-dialog-titlebar-close {
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    background: url("../../../assets/icons/close-button.png") center/cover;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.ui-dialog-content {
+    border: 3px solid #f0f0f0;
+    border-top: 0;
+    height: 108px;
+}
+.dialog-content {
+    background: #fff;
+    height: 108px;
+}
+
+form.dialog-content {
+    margin: 25px;
+}
+
+.ui-dialog-footer {
+    height: 61px;
+    background: #f0f0f0;
+}
+
+.dialog-footer {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 55px
+}
+
+.button-cancel {
+    border: 2px solid #18abf4;
+    width: 122px;
+    height: 40px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #fff;
+    color: #52c0f7;
+}
+
+.button-save {
+    border: 2px solid #18abf4;
+    background: #52c0f7;
+    width: 122px;
+    height: 40px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    padding: 5px;
+    border: 2px solid #d8d8d8;
+    height: 37px;
+    width: 100%;
+}
+
+.ui-autocomplete-panel {
+    text-align: left;
+    overflow: auto;
+    height: 100px;
+    overflow-y: scroll;
+    background: #fff;
+}
+.ui-autocomplete-list-item:hover {
+    color: #52c0f7;
+}
+
+

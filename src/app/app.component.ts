@@ -24,12 +24,19 @@ export class AppComponent implements OnInit {
     }
 
     private getFlights() {
-        this.flightsService.allFlights().subscribe(flights => {
+        this.flightsService.flightsList().subscribe(flights => {
             this.data = flights;
         });
     }
 
     private getRegistrations() {
-        this.registrationsService.allRegistrations().subscribe(registrations => this.registrations = registrations);
+        this.registrationsService.flightsRegistrations().subscribe(registrations => this.registrations = registrations);
+    }
+
+    saveRegistration(flight: IFlight) {
+        return this.data.map((row) => {
+            if (row.id === flight.id) { row.registration = flight.registration; }
+            return row;
+        });
     }
 }
